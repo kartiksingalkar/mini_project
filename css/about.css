@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Lora");
 
 /*main background part*/
 body{
-  font: 15px/1.5 'Raleway';
+  font: 15px/1.5 'Merriweather';
   padding:0;
   margin:0;
   background: #f3f8ff;
@@ -13,11 +14,11 @@ html {
 }
 /*upper border part*/
 header{
-  font: 20px/1.5 'Raleway'; 
-  background: #00a8cc;
+  font: 20px/1.5 'Lora'; 
+  background: #f70202;
   color: #ffffff;  
   padding-top: 30px; 
-  min-height: 55px; 
+  min-height: 50px; 
   border-bottom: #00a8cc 6px solid;
 }
 
@@ -71,7 +72,7 @@ header a::after {
   width: 60%;
   height: 1px;
   opacity: 0;
-  background-color: #a2d5f2;
+  background-color: #f85858;
   transform: translate(-50%, 0);
   transition: all 0.3s ease-in-out;
 }
@@ -105,9 +106,9 @@ header a:hover::after {
   white-space: nowrap;
   margin-left: 100px;
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: "Merriweather";
   font-size: 60px;
-  background: #7fdbda;
+  background: #f85858;
   float: right;
   margin: 8px 0 0 20px;
   padding: 4px;
@@ -132,7 +133,7 @@ h7{
 
 .history{
 	text-align: center;
-	background-color: #00a8cc;
+	background-color: #f85858;
   font-size: 50px;
 	
 	font-weight:bold;
@@ -169,10 +170,10 @@ h7{
 #bottom {  /*mail button*/
     padding: 15px; /*blue border size*/
     color: #ffffff;
-    background: #00a8cc;
-    border-top: #00a8cc 3px solid;
+    background: #ff0b0bee;
+    border-top: #f72828 3px solid;
     min-height: 70px;
-    font-family: "Raleway";
+    font-family: "Merriweather";
 }
 
 #bottom h1{
@@ -192,15 +193,15 @@ h7{
   height: 25px;
   width:250px;
   padding: 6px 10px;
-  font-family: "Raleway";
-  background: #00a8cc;
+  font-family: "Merriweather";
+  background: #f85858;
   border: solid 2px #fff;
   color: #fff;
 }
 
 #bottom input[type="email"]:hover{
-  background-color: #fff;
-  color: #00a8cc;
+  background-color: #f85858;
+  color: #0a0a0a0a;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -217,7 +218,7 @@ h7{
 }
 
 #bottom input[type="email"]:hover::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #00a8cc;
+  color: #050505;
   opacity: 1; /* Firefox */
 }
 
@@ -230,9 +231,9 @@ h7{
 }
 
 .button_1 { /*subscribe button*/
-    font-family: "Raleway";
+    font-family: "Merriweather";
     height: 41px;
-    background: #00a8cc;
+    background: #f85858;
     padding-left: 20px;
     padding-right: 20px;
     color: #fff;
@@ -251,7 +252,7 @@ h7{
     background: #000;
     border-top: #000 3px solid;
     min-height: 70px;
-    font-family: "Raleway";
+    font-family: "";
 }
 
 .bottomcontainer{
@@ -277,7 +278,7 @@ h7{
   color: #000;  /*text heading*/
   min-height:50px;
   background: #f3f8ff;  /* category part */
-  font-family: "Raleway";
+  font-family: "Merriweather";
 }
 
 #frames p{
@@ -346,28 +347,28 @@ img {
 #title1{
   border-width: 100px;
   border-top:100px solid; 
-  background: #00bcd4;
+  background: #d40000;
   color: #f3f8ff;
   font-size: 15px;
   font-weight: 300;
 }
 
 #title2{
-  background: #f3f8ff;
+  background: #db7f7f;
   color: #000;
   font-size: 14px;
    font-weight: 300;
 }
 
 #title3{
-  background: #f3f8ff;
+  background: #f85858;
   color: #000;
   font-size: 20px;
    font-weight: 300;
 }
 
 #title4{
-  background: #d7fffd;
+  background: #f85858;
   color: #000;
   font-size: 12px;
   font-weight: 200;
@@ -375,7 +376,7 @@ img {
 }
 
 #title5{
-  background: #00bcd4;
+  background: #f85858;
   color: #f3f8ff;
   font-size: 15px;
   font-weight: 200;
@@ -383,7 +384,7 @@ img {
 }
 
 #info{
-  background: #d7fffd;
+  background: #db7f7f;
   color: #000;
   font-size: 12px;
    font-weight: 200;
@@ -400,7 +401,7 @@ img {
   height: 35px;
   cursor: pointer;
   background: #00a8cc;
-  background-color:#00a8cc;
+  background-color: #f85858;
   border-radius: 50px;
   border: 1px solid #fff;
   font-size: 20px;

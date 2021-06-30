@@ -18,11 +18,11 @@ html
 header
 {
   font: 20px/1.5 'Lora';/*go corona size*/
-  background:#00a8cc;
+  background: #f70202;
   color: #ffffff;/*go corona*/
   padding-top: 1px;/*upper border upper height*/
   height: 85px;/*upper border bottom height*/
-  border-bottom:#00a8cc 10px solid;
+  border-bottom:#cc0000 10px solid;
 }
 
 /*home about contact us*/
@@ -77,7 +77,7 @@ header a::after {
   width: 60%;
   height: 1px;
   opacity: 0;
-  background-color: #a2d5f2;
+  background-color: #f85858;
   transform: translate(-50%, 0);
   transition: all 0.3s ease-in-out;
 }
@@ -95,20 +95,20 @@ header a:hover::after {
 
 #top {  /*mail button*/
     padding: 20px; /*blue border size*/
-    border-top: #00a8cc 3px solid;
+    border-top: #cc0000 3px solid;
     min-height: 70px;
     font-family: "Merriweather";
-	background-image:url("bg2.1.jpg");
+	background-image:url("cbg.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
 #bottom {  /*mail button*/
     padding: 15px; /*blue border size*/
     color: #ffffff;
-    background: #00a8cc;
-    border-top: #00a8cc 3px solid;
+    background: #ff0b0bee;
+    border-top: #f72828 3px solid;
     min-height: 70px;
-    font-family: "Merriweather";
+    font-family: "Lora";
 }
 
 #bottom h1{
@@ -125,18 +125,18 @@ header a:hover::after {
 
 #bottom input[type="email"]{
   padding:4px;
-  height: 25px;
-  width:250px;
+  height: 30px;
+  width: 250px;
   padding: 6px 10px;
   font-family: "Merriweather";
-  background: #00a8cc;
+  background: #f85858;
   border: solid 2px #fff;
   color: #fff;
 }
 
 #bottom input[type="email"]:hover{
   background-color: #fff;
-  color: #00a8cc;
+  color: #000000;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -153,7 +153,7 @@ header a:hover::after {
 }
 
 #bottom input[type="email"]:hover::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #00a8cc;
+  color: #000000;
   opacity: 1; /* Firefox */
 }
 
@@ -168,11 +168,11 @@ header a:hover::after {
 .button_1 { /*subscribe button*/
     font-family: "Merriweather";
     height: 41px;
-    background: #00a8cc;
+    background: #f85858;
     padding-left: 20px;
     padding-right: 20px;
     color: #fff;
-    border-radius: 150px;
+    border-radius: 50px;
     border: solid 2px #fff;
 }
 
@@ -206,26 +206,6 @@ header a:hover::after {
   margin-right: 100px;
 }
 
-#frames{
-  text-align: center;
-  padding:15px 0px;
-  color: #000;  /*text heading*/
-  min-height:50px;
-  background: #f3f8ff;  /* category part */
-  font-family: "Merriweather";
-}
-
-#frames p{
-  font-size: 36px;  /*title size*/
-  font-weight: bold; 
-}
-
-#info{
-  background: #d7fffd;
-  color: #000;
-  font-size: 12px;
-   font-weight: 200;
-}
 .icons {
   margin-top: 25px;
 }
@@ -235,7 +215,7 @@ header a:hover::after {
   height: 35px;
   cursor: pointer;
   background: #00a8cc;
-  background-color:#00a8cc;
+  background-color: #f85858;
   border-radius: 50px;
   border: 1px solid #fff;
   font-size: 20px;
@@ -262,7 +242,7 @@ display: flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
-background: url(bg.png);
+background: url("bg.png");
 background-size:cover;
 }
 .contact .content
@@ -285,8 +265,8 @@ text-align: center;
 {
 width: 100%;
 display: flex;
-justify-content:center;
-align-items:center;
+justify-content: center;
+flex-direction: column;
 margin-top: 30px;
 }
 .container .contactInfo
@@ -463,7 +443,3 @@ font-family: "Montserrat",sans-serif;
 	margin-top: 8px;
 	width: 100%;
 }
-
-	
-    
-

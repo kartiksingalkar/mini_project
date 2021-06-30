@@ -15,7 +15,7 @@ html {
 /*upper border part*/
 header{
   font: 20px/1.5 'Lora'; /*go corona size*/
-  background: #00a8cc;
+  background: #f70202;
   color: #ffffff;  /*go corona*/
   padding-top: 30px; /*upper border upper height*/
   min-height: 50px; /*upper border bottom height*/
@@ -108,7 +108,7 @@ header a:hover::after {
   text-transform: uppercase;
   font-family: "Merriweather";
   font-size: 60px;
-  background: #7fdbda;
+  background: #f70202;
   float: right;
   margin: 8px 0 0 20px;
   padding: 4px;
@@ -138,7 +138,7 @@ h2{
 
 .history{
 	text-align: center;
-	background-color: #00a8cc;
+	background-color: #f72828;
   font-size: 50px;
 	
 	font-weight:bold;
@@ -187,8 +187,8 @@ h2{
 #bottom {  /*mail button*/
     padding: 15px; /*blue border size*/
     color: #ffffff;
-    background: #00a8cc;
-    border-top: #00a8cc 3px solid;
+    background: #ff0b0bee;
+    border-top: #f72828 3px solid;
     min-height: 70px;
     font-family: "Merriweather";
 }
@@ -211,14 +211,14 @@ h2{
   width:250px;
   padding: 6px 10px;
   font-family: "Merriweather";
-  background: #00a8cc;
-  border: solid 2px #fff;
+  background: #f85858;
+  border: solid 2px rgb(255, 72, 72);
   color: #fff;
 }
 
 #bottom input[type="email"]:hover{
-  background-color: #fff;
-  color: #00a8cc;
+  background-color: #f85858;
+  color: #0a0a0a;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -235,7 +235,7 @@ h2{
 }
 
 #bottom input[type="email"]:hover::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #00a8cc;
+  color: #050505;
   opacity: 1; /* Firefox */
 }
 
@@ -250,7 +250,7 @@ h2{
 .button_1 { /*subscribe button*/
     font-family: "Merriweather";
     height: 41px;
-    background: #00a8cc;
+    background: #f85858;
     padding-left: 20px;
     padding-right: 20px;
     color: #fff;
@@ -317,10 +317,3 @@ h2{
   margin-right: 3px; /*dist bet icons*/
   margin-bottom: 5px;
 }
-
-
-
-
-
-
-
